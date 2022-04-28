@@ -46,6 +46,43 @@ main h1 {
       color: #E30641;
   }
 
+
+/*EVENTS*/
+.events-main {
+  object-fit: cover; 
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.events-title h1 {
+  font-family: karla;
+  font-size: 120px;
+  margin-left: 5%;
+  overflow-wrap: anywhere;
+  padding-top: 5%;
+
+}
+
+/*DISCOVER MORE*/
+.discover {
+  text-align: center;
+  margin-top: 8%;
+}
+
+.discover p {
+  color: #0A2F43; 
+  font-size: 24px;
+}
+
+.discover h1 {
+  font-size: 60px;
+  color: #0A2F43;
+}
+
+
 /*CONTACT FORM */
 .card {
   padding: 15%;
@@ -117,8 +154,6 @@ input.btn {
   padding-left: 10%;
   padding-right: 10%;
 }
-
-
 
 
 /* FOOTER */
