@@ -108,6 +108,12 @@ main h1 {
   font-size: 27px;
 }
 
+.pretty-underline {
+    background-image: linear-gradient(90deg, #E30641ff, #E51D52ff, #E63363ff, #E84A74ff, #E96184ff, #EB7795ff, #EC8EA6ff);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+}
 
 
 /*CONTACT FORM */
