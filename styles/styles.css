@@ -160,57 +160,32 @@ main h1 {
   font-size: 20px;
   font-family: karla;
   letter-spacing: 5px;
-  line-height: 130px;
+  line-height: 50px;
   margin-top: -10%;
-  margin-bottom: 10%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-left: 2px;
-  padding-right: 2px;
+  margin-bottom: 30%; 
 }
 
 
 .text3 {
   text-align: center;
-  font-size: 80px;
+  font-size: 20px;
   font-family: karla;
   letter-spacing: 5px;
-  line-height: 130px;
+  line-height: 50px;
   margin-top: -10%;
   margin-bottom: 10%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-left: 2px;
-  padding-right: 2px;
 }
 
 
 .text4 {
   text-align: center;
-  font-size: 80px;
+  font-size: 70px;
   font-family: karla;
   letter-spacing: 5px;
   line-height: 130px;
   margin-top: -10%;
   margin-bottom: 10%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-left: 2px;
-  padding-right: 2px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*CONTACT FORM */
