@@ -198,6 +198,17 @@ main h1 {
   padding-top: 5%;
 }
 
+
+/*REVIEWS*/
+.reviews-title h1 {
+  font-family: karla;
+  letter-spacing: 5px;
+  color: #0A2F43;
+  text-align: right;
+  padding-right: 55;
+  padding-top: 10%;
+}
+
 /*CONTACT FORM */
 .card {
   padding: 15%;
