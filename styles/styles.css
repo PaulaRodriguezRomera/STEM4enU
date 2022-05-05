@@ -52,64 +52,65 @@ main h1 {
 
 
 /*EVENTS*/
-.events-main {
-  object-fit: cover; 
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
 
-.events-main h1 {
+.container-events {
+  margin-top: 15%;
+  text-align: center;
   font-family: karla;
-  font-size: 120px;
-  margin-left: 5%;
-  overflow-wrap: anywhere;
-  padding-top: 5%;
+}
+
+.intro-events {
+  font-family: quicksand;
+  font-size: 60px;
+  color: #0A2F43; 
+  padding-bottom: 2%;
+}
+
+.container-events img {
+  width: 700;
+  height: 700;
+}
+
+.container-events .card-body {
+  padding-top: 25%;
+  padding-left: 10%;
 
 }
 
-.event-body {
-  background-color: #0A2F43;
-  margin-left: 34%;
-  margin-right: 30%;
-  margin-top: 8.5%;
-  padding-top: 1%;
+.container-events .card-body2 {
+  padding-top: 25%;
+  padding-right: 10%;
+
 }
 
-.event-body .event-card .card {
-  background-color: rgb(39, 104, 140, 0.6);
+.container-events .card-title {
+  color: #E30641;
+  font-size: 35px;
+  text-align: right;
+  padding-bottom: 2%;
+  letter-spacing: 3px;
+}
+
+.container-events .card-body2 .card-title {
+  color: #E30641;
+  font-size: 35px;
   text-align: left;
-  margin-left: 10%;
-  padding-bottom: 5%;
-  padding-left: 5%;
+  padding-bottom: 2%;
+  letter-spacing: 3px;
 }
 
+.container-events .card-text {
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 1px;
 
-
-.event-card .card-title {
-  font-family: karla;
-  color: #0A2F43;
-  background-color: #F2F1EF;
-  border-color: #0A2F43;
-  border: 2px solid; 
-  text-align: left;
-  padding-top: 8%;
 }
 
+.container-events .card-body2 .card-text {
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 1px;
 
-.event-card .card-body .card-text {
-  font-family: karla;
-  font-size: 14px;
-  color: white;
-  margin-top: -8%;
-}
-
-.event-card .btn {
-  background-color: white;
-  width: 30%;
-  margin-left: 55%;
 }
 
 /*DISCOVER MORE*/
