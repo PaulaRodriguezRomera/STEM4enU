@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Black+Ops+One&family=Gugi&family=Monofett&family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Black+Ops+One&family=Gugi&family=Monofett&family=Monoton&family=Train+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Black+Ops+One&family=Gugi&family=Karla:wght@500&family=Monofett&family=Monoton&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 /*HOME PAGE*/ 
 .video-container {
@@ -52,6 +53,24 @@ main h1 {
 
 
 /*EVENTS*/
+.events-main {
+  object-fit: cover; 
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.cover-container h1 {
+  color: #E30641;
+  font-family: karla;
+  font-size: 120px;
+  position: absolute;
+  text-align: left;
+  margin-left: 4%;
+  padding-top: 28%;
+}
 
 .container-events {
   margin-top: 15%;
@@ -63,7 +82,8 @@ main h1 {
   font-family: quicksand;
   font-size: 60px;
   color: #0A2F43; 
-  padding-bottom: 2%;
+  padding-bottom: 5%;
+  margin-top: 16%;
 }
 
 .container-events img {
@@ -110,8 +130,21 @@ main h1 {
   font-size: 18px;
   text-align: justify;
   letter-spacing: 1px;
-
 }
+
+.events-main footer p {
+    color: #E30641; 
+    background-color: #0A2F43;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    }
+    
+  .events-main footer {
+      margin-top: 20%;
+    }
+
 
 /*DISCOVER MORE*/
 .discover {
