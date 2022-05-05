@@ -37,11 +37,13 @@
 
   header {
       position: relative;
+      margin-top: 2%;
   }
 
 
 .nav-link {
       color: #E30641;
+
   }
 
   .float-md-start {
