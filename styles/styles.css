@@ -41,8 +41,9 @@
   }
 
 
-.nav-link {
+.navbar-nav .nav-item .nav-link {
       color: #E30641;
+  
 
   }
 
