@@ -10,7 +10,6 @@
 /*HOME PAGE*/ 
 .video-container {
     height: 100vh;
-    position: relative;
     overflow: hidden;
     @media(min-width: 600px) {
       height: 100vh;
@@ -26,16 +25,13 @@
     left: 0;
   }
 
-
-main {
-    position: relative;
-    margin-top: 18%;
-  }
-
-main h1 {
+.cover-container .main-title h1 {
     color: #E30641;
-    font-size: 800%; 
-    font-family: "Train One";  
+    font-size: 120px; 
+    font-family: karla;  
+    position: relative;
+    text-align: center;
+    margin-top: -18%;
 }
 
   header {
@@ -365,5 +361,5 @@ footer {
 footer p {
 color: #E30641; 
 font-size: 20px;
-margin-top: -10%;
+margin-top: -5%;
 }
