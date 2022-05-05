@@ -11,6 +11,7 @@
 .video-container {
     height: 100vh;
     overflow: hidden;
+    position: relative;
     @media(min-width: 600px) {
       height: 100vh;
     }
@@ -65,7 +66,7 @@
   position: absolute;
   text-align: left;
   margin-left: 4%;
-  padding-top: 28%;
+  padding-top: 25%;
 }
 
 .container-events {
@@ -79,7 +80,7 @@
   font-size: 60px;
   color: #0A2F43; 
   padding-bottom: 5%;
-  margin-top: 16%;
+  margin-top: 38%;
 }
 
 .container-events img {
@@ -138,14 +139,13 @@
     }
     
   .events-main footer {
-      margin-top: 20%;
+      margin-top: 5%;
     }
 
 
 /*DISCOVER MORE*/
 .discover {
   text-align: center;
-  margin-top: 3%;
 }
 
 .discover p {
@@ -160,23 +160,30 @@
   font-size: 95px;
   color: #0A2F43;
   font-family: karla;
+  text-align: center;
 }
 
+
 .discover .discover-people {
-  margin-right: 60%;
-  padding-bottom: 3%;
+  position: relative;
+  margin-top: -20%;
 }
 
 .discover .discover-events {
-  margin-left: 20%;
+  position: relative;
+  margin-left: 40%;
+  margin-top: -25%;
 }
+
 
 .cover-container .robot {
-  margin-top: -5%;
+  margin-top: -15%;
+  margin-right: 65%;
 }
 
-.discover .btn {
+.discover .discover-btn {
   font-size: 27px;
+  color: #0A2F43;
 }
 
 .pretty-underline {
