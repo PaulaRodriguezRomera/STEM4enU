@@ -41,10 +41,8 @@
   }
 
 
-.navbar-nav .nav-item .nav-link {
+.nav .nav-link {
       color: #E30641;
-  
-
   }
 
   .float-md-start {
@@ -83,7 +81,7 @@
   font-size: 60px;
   color: #0A2F43; 
   padding-bottom: 5%;
-  margin-top: 38%;
+  margin-top: 42%;
 }
 
 .container-events img {
