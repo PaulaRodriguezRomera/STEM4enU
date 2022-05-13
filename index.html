@@ -21,15 +21,31 @@
         </video>
 
     <header>
+        <div class="row">
+            <div class="col-md-10">
             <img src="gallery/napierlogo4.png" alt="logo"  width="80" height="80" class="float-md-start">
-   
-            <nav class="nav nav-masthead justify-content-center float-md-end">
-               <a class="nav-link" href="index.html">Home</a>
-               <a class="nav-link" href="events.html">Events</a>
-               <a class="nav-link" href="about.html">About</a>
-               <a class="nav-link" href="#">Meet the team</a>
-               <a class="nav-link" href="contact.html">Contact</a>
-           </nav>
+
+           </div>
+           <div class="col-md-2">
+                <div id="myNav" class="overlay">
+                  <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
+                  <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About us</a>
+                    <a href="events.html">Events</a>
+                    <a href="reviews.html">Reviews</a>
+                    <a href="contact.html">Contact</a>
+                  </div>
+                </div>
+
+                <div class="fixed-action-btn">
+                    <a class="btn-floating btn-lg burger" id="openNav">
+                      <i class="fas fa-bars"></i>
+                    </a>
+                  </div>
+            </div>
+        </div>
+            
     </header>
   
         <main class="main-title">
@@ -41,7 +57,8 @@
          </footer>
     </div>
 
-      
+<!--Menu Overlay-->
+<script src="main.js"></script>
 
 <!--Boostrap Bundle with Popper-->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
