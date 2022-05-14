@@ -11,54 +11,63 @@
     <link rel="stylesheet" href="styles/styles.css">
 
     <title>STEM4enU</title>
-</head>
+
 <body class="video-container d-flex text-center">
+
+
+<!--VIDEO-->
     
-   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="gallery/homevideo.mp4" type="video/mp4">
-        </video>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="gallery/homevideo.mp4" type="video/mp4">
+    </video>
+</div>
 
-    <header>
-        <div class="row">
-            <div class="col-md-10">
-            <img src="gallery/napierlogo4.png" alt="logo"  width="80" height="80" class="float-md-start">
+<!--LOGO AND MENU-->
 
-           </div>
-           <div class="col-md-2">
-                <div id="myNav" class="overlay">
-                  <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
-                  <div class="overlay-content">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About us</a>
-                    <a href="events.html">Events</a>
-                    <a href="reviews.html">Reviews</a>
-                    <a href="contact.html">Contact</a>
-                  </div>
-                </div>
-
-                <div class="fixed-action-btn">
-                    <a class="btn-floating btn-lg burger" id="openNav">
-                      <i class="fas fa-bars"></i>
-                    </a>
-                  </div>
-            </div>
-        </div>
-            
-    </header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="gallery/napierlogo4.png" width="80" height="80" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+          
+       
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" data-value="home" href="index.html">Home</a></li>
+              <li class="nav-item">
+                  <a class="nav-link" data-value="about us" href="about.html">About Us</a></li>
+               <li class="nav-item">
+                  <a class="nav-link" data-value="events" href="events.html">Events</a></li>
+               <li class="nav-item">
+                  <a class="nav-link" data-value="contact" href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+      </nav>
   
+<!--HOME TITLE -->
         <main class="main-title">
              <h1>STEM4enU</h1>
          </main>
 
+<!--HOME FOOTER-->
          <footer class="mt-auto">
              <p>Edinburgh Napier University</p>
          </footer>
     </div>
 
-<!--Menu Overlay-->
-<script src="main.js"></script>
+<!--JavaScript-->
+<script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+</script>
 
 <!--Boostrap Bundle with Popper-->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
