@@ -359,6 +359,8 @@ input.btn {
   padding-right: 10%;
 }
 
+/*MEET THE TEAM*/ 
+
 
 /* FOOTER */
 footer {
@@ -373,8 +375,12 @@ margin-top: -5%;
 
 
 /* MENU */
-.navbar {
-  height: 20%;
-  width: 100%;
-  background-color: none;
+.menu-logo {
+ position: relative;
 }
+
+.menu-items {
+  position: relative;
+  color: red;
+}
+
