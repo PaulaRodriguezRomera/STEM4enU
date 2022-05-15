@@ -360,7 +360,32 @@ input.btn {
 }
 
 /*MEET THE TEAM*/ 
+.cover-container .team-header {
+  font-size: 90px;
+}
 
+.intro-teams {
+  font-family: quicksand;
+  font-size: 60px;
+  color: #0A2F43; 
+  padding-bottom: 5%;
+  margin-top: 42%;
+}
+
+.container-teams {
+  margin-top: 5%;
+  text-align: center;
+  font-family: karla;
+}
+
+
+.container-teams .card-title {
+  color: #E30641;
+  font-size: 35px;
+  text-align: right;
+  padding-bottom: 2%;
+  letter-spacing: 3px;
+}
 
 /* FOOTER */
 footer {
