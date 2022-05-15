@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Black+Ops+One&family=Gugi&family=Monofett&family=Monoton&family=Train+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Black+Ops+One&family=Gugi&family=Karla:wght@500&family=Monofett&family=Monoton&family=Train+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
 
 /*HOME PAGE*/ 
 .video-container {
@@ -29,10 +30,10 @@
 .cover-container .main-title h1 {
     color: #E30641;
     font-size: 120px; 
-    font-family: karla;  
+    font-family: Zhi Mang Xing; 
     position: relative;
     text-align: center;
-    margin-top: -10%;
+    margin-top: -15%;
 }
 
   header {
@@ -399,7 +400,7 @@ input.btn {
 
 .cover-container h1 {
   color: #E30641;
-  font-family: karla;
+  font-family: Zhi Mang Xing;
   font-size: 120px;
   position: absolute;
   text-align: left;
