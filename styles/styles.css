@@ -27,27 +27,28 @@
     left: 0;
   }
 
-.cover-container .main-title h1 {
+.main-title .home-title h1{
     color: #E30641;
-    font-size: 120px; 
+    font-size: 140px; 
     font-family: Zhi Mang Xing; 
-    position: relative;
     text-align: center;
-    margin-top: -15%;
+    margin-left: -150%;
+    margin-top: 25%;
+    position: relative;
 }
 
-  header {
+  .main-title header .nav {
       position: relative;
-      margin-top: 2%;
+      margin-left: -15%;
+      padding-top: 8%;
   }
 
+  .main-title header img {
+    position: relative;
+  }
 
 .nav .nav-link {
       color: #E30641;
-  }
-
-  .float-md-start {
-    margin-left: 2%;
   }
 
 
@@ -185,6 +186,7 @@
 .discover .cover-container p {
   color: #0A2F43; 
   font-size: 40px;
+  margin-top: 10%;
   margin-right: 30%;
   padding-bottom: 2%;
   font-family: karla;
@@ -200,18 +202,19 @@
 
 .discover .cover-container .discover-people {
   position: relative;
-  margin-top: -20%;
+  float: left;
+  
 }
 
 .discover .cover-container .discover-events {
   position: relative;
   margin-left: 40%;
-  margin-top: -25%;
+  float: right;
 }
 
 
 .cover-container .robot {
-  margin-top: -15%;
+  margin-top: -20%;
   margin-right: 65%;
 }
 
@@ -229,10 +232,19 @@
 
 
 /*ABOUT*/
+.about-main header {
+  padding-bottom: 2%;
+}
+
+
+.about-main .nav {
+  margin-top: -3%;
+  padding-right: 2%;
+}
 
 .cover-container .about-heading1 h1, .cover-container .about-heading2 h1, .cover-container .about-heading3 h1, .cover-container .about-heading4 h1{
   font-family: karla;
-  font-size: 60px;
+  font-size: 75px;
   font-weight: 600;
   letter-spacing: 4px;
   color: #0A2F43;
@@ -519,5 +531,4 @@ margin-top: -5%;
 }
 
 
-/* MENU */
 
