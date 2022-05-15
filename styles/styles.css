@@ -174,11 +174,15 @@
 
 
 /*DISCOVER MORE*/
-.cover-container  .discover {
+.discover .cover-container {
   text-align: center;
 }
 
-.cover-container .discover p {
+.discover header {
+  padding-right: 2%;
+}
+
+.discover .cover-container p {
   color: #0A2F43; 
   font-size: 40px;
   margin-right: 30%;
@@ -186,7 +190,7 @@
   font-family: karla;
 }
 
-.cover-container  .discover h1 {
+.discover .cover-container h1 {
   font-size: 95px;
   color: #0A2F43;
   font-family: karla;
@@ -194,12 +198,12 @@
 }
 
 
-.cover-container .discover .discover-people {
+.discover .cover-container .discover-people {
   position: relative;
   margin-top: -20%;
 }
 
-.cover-container .discover .discover-events {
+.discover .cover-container .discover-events {
   position: relative;
   margin-left: 40%;
   margin-top: -25%;
@@ -211,7 +215,7 @@
   margin-right: 65%;
 }
 
-.cover-container .discover .discover-btn {
+.discover .cover-container .discover-btn {
   font-size: 27px;
   color: #0A2F43;
 }
@@ -516,5 +520,4 @@ margin-top: -5%;
 
 
 /* MENU */
-
 
