@@ -174,11 +174,11 @@
 
 
 /*DISCOVER MORE*/
-.discover {
+.cover-container  .discover {
   text-align: center;
 }
 
-.discover p {
+.cover-container .discover p {
   color: #0A2F43; 
   font-size: 40px;
   margin-right: 30%;
@@ -186,7 +186,7 @@
   font-family: karla;
 }
 
-.discover h1 {
+.cover-container  .discover h1 {
   font-size: 95px;
   color: #0A2F43;
   font-family: karla;
@@ -194,12 +194,12 @@
 }
 
 
-.discover .discover-people {
+.cover-container .discover .discover-people {
   position: relative;
   margin-top: -20%;
 }
 
-.discover .discover-events {
+.cover-container .discover .discover-events {
   position: relative;
   margin-left: 40%;
   margin-top: -25%;
@@ -211,7 +211,7 @@
   margin-right: 65%;
 }
 
-.discover .discover-btn {
+.cover-container .discover .discover-btn {
   font-size: 27px;
   color: #0A2F43;
 }
@@ -226,20 +226,20 @@
 
 /*ABOUT*/
 
-.about-heading1 h1, .about-heading2 h1, .about-heading3 h1, .about-heading4 h1{
+.cover-container .about-heading1 h1, .cover-container .about-heading2 h1, .cover-container .about-heading3 h1, .cover-container .about-heading4 h1{
   font-family: karla;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 600;
   letter-spacing: 4px;
   color: #0A2F43;
 }
 
-.about-heading1 h1, .about-heading3 h1{
+.cover-container .about-heading1 h1, .cover-container .about-heading3 h1{
   margin-top: -22%;
   margin-left: 50%;
 }
 
-.about-heading2 h1, .about-heading4 h1{
+.cover-container .about-heading2 h1, .cover-container .about-heading4 h1{
   margin-left: 10%;
   margin-top: -25%;
 }
@@ -516,12 +516,5 @@ margin-top: -5%;
 
 
 /* MENU */
-.menu-logo {
- position: relative;
-}
 
-.menu-items {
-  position: relative;
-  color: red;
-}
 
