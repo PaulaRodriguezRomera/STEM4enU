@@ -91,11 +91,22 @@
   color: #0A2F43; 
   font-weight: bold;
   padding-bottom: 5%;
+  padding-left: 5%; 
+  padding-right: 5%;
 }
+
+.container-events .intro-details h4 {
+  font-size: 35px;
+  font-weight: bold; 
+}
+
+
 
 .container-events img {
   width: 500;
   height: 500;
+  border: solid 2px #E30641;
+  margin-top: 8%;
 }
 
 .container-events .card-body {
@@ -134,6 +145,7 @@
   font-size: 15px;
   text-align: justify;
   letter-spacing: 1px;
+  line-height: 180%;
 
 }
 
@@ -141,6 +153,10 @@
   font-size: 15px;
   text-align: justify;
   letter-spacing: 1px;
+}
+
+.container-events a {
+  color: #E30641; 
 }
 
 .events-main footer p {
