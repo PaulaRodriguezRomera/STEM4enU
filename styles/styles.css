@@ -333,6 +333,10 @@
 }
 
 /*CONTACT FORM */
+.cover-contact nav, img {
+  position: relative;
+}
+
 .card {
   padding: 15%;
   padding-top: 45px;
