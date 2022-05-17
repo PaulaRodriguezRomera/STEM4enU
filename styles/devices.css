@@ -50,23 +50,29 @@
   
 
    /*ABOUT*/
-   .cover-container .about-heading1 h1, .cover-container .about-heading2 h1, .cover-container .about-heading3 h1, .cover-container .about-heading4 h1{
-    font-size: 21px;
+   .cover-container .about-heading1 h1, .cover-container .about-heading4 h1{
+    font-size: 23px;
+  }
+
+  .cover-container .about-heading2 h1,.cover-container .about-heading3 h1 {
+    font-size: 20px;
+    padding-right: 3%;
   }
 
   .about-heading1 img, .about-heading2 img, .about-heading3 img, .about-heading4 img {
-    height:50%;
+    height: 60%;
     width: 100%;
   }
 
 
 .text1, .text2, .text3, .text4 {
     text-align: center;
-    font-size: 15px; 
+    font-size: 18px; 
     letter-spacing: 2px;
     line-height: 45px;
-    margin-left: 2px;
-    max-width: auto;
+    margin-left: 3px;
+    margin-top: -8%;
+    margin-bottom: 18%;
   }
 
 
