@@ -340,6 +340,19 @@
   padding-top: 5%;
 }
 
+.about-main footer p {
+  color: #E30641; 
+  background-color: #0A2F43;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  }
+  
+.about-main footer {
+    margin-top: 1%;
+  }
+
 /*REVIEWS*/
 .reviews-title h1 {
   font-family: karla;
