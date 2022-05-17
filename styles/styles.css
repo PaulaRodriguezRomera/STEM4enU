@@ -194,39 +194,46 @@
   padding-right: 2%;
 }
 
+.discover header nav {
+  padding-top: 2px;
+  margin-top: 10px;
+}
+
 .discover .cover-container p {
   color: #0A2F43; 
   font-size: 40px;
-  margin-top: 10%;
-  margin-right: 30%;
+  margin-top: 2%;
+  margin-right: 45%;
   padding-bottom: 2%;
   font-family: karla;
 }
 
 .discover .cover-container h1 {
-  font-size: 95px;
+  font-size: 80px;
   color: #0A2F43;
   font-family: karla;
-  text-align: center;
+  margin-top: -25%;
 }
 
 
 .discover .cover-container .discover-people {
   position: relative;
   float: left;
+  margin-top: -20%;
+  margin-left: 23%;
   
 }
 
 .discover .cover-container .discover-events {
   position: relative;
-  margin-left: 40%;
+  margin-right: 5%;
   float: right;
+  margin-top: -20%;
 }
 
 
 .cover-container .robot {
-  margin-top: -20%;
-  margin-right: 65%;
+  margin-top: -10%;
 }
 
 .discover .cover-container .discover-btn {
@@ -273,7 +280,7 @@
 
 .about-heading1 img, .about-heading2 img, .about-heading3 img, .about-heading4 img {
   object-fit: cover; 
-  height:60%;
+  height:64%;
   width: 100%;
 }
 
@@ -344,15 +351,20 @@
 }
 
 /*CONTACT FORM */
+.cover-contact nav {
+  padding-top: 1%;
+}
+
 .cover-contact nav, img {
   position: relative;
 }
 
 .card {
   padding: 15%;
-  padding-top: 45px;
-  margin-top: 60px;
-  margin-bottom: 80px;
+  padding-top: 12px;
+  padding-bottom: 10%;
+  margin-top: 48px;
+  margin-bottom: 10px;
   background-color: #0A2F43;
   border-radius: 2%;
 }
