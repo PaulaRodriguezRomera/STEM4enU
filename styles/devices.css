@@ -66,9 +66,11 @@
 
 .text1, .text2, .text3, .text4 {
     text-align: center;
-    font-size: 18px; 
+    font-size: 15px; 
     letter-spacing: 2px;
     line-height: 45px;
+    margin-left: 2px;
+    max-width: auto;
   }
 
 
@@ -82,10 +84,39 @@
 
 
    /*DISCOVER*/
+   .discover .cover-container p {
+    font-size: 18px;
+  }
+  
+  .discover .cover-container h1 {
+    font-size: 30px;
+  }
+  
+ 
+  .cover-container .robot {
+    width: 350;
+    height: 350;
+    margin-top: 15%;
+  }
+  
+  .discover .cover-container .discover-btn {
+    font-size: 18px;
+  }
 
+  .bi {
+    font-size: 10%;
+  }
 
+  .discover .cover-container .discover-people {
+      text-align: center;
+      margin-left: 2%;
+      margin-bottom: 20%;
+  }
 
-
+  .discover .cover-container .discover-events {
+      text-align: center;
+  }
+  
    /*TEAM*/
    .cover-container .team-header {
     font-size: 80px;
@@ -133,46 +164,672 @@
     font-size: 15px;
     }
 
-
-   /*CONTACT*/ 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    /*HOME PAGE*/
+   /*HOME PAGE*/
+   .home-container .home-title h1{
+    font-size: 75px; 
+    text-align: center;
+    margin-top: -10%;
+}
+
+
+.home-container .home-footer p {
+  font-family: karla;
+  font-size: 15px;
+  text-align: center;
+  color: #E30641;
+  position: relative;
+  margin-top: 10%;
+}
+
    /*EVENTS*/
+   .cover-container .event-title {
+    font-size: 60px;
+    margin-left: 4%;
+    padding-top: 120%;
+  }
+
+  .intro-events h5 {
+    font-size: 40px;
+    margin-top: 130%;
+  }
+  
+  .intro-events .intro-details {
+    padding-bottom: 5%;
+    padding-left: 5%; 
+    padding-right: 5%;
+  }
+  
+  .container-events .intro-details h4 {
+    font-size: 30px;
+  }
+
+  .container-events img {
+    width: 350;
+    height: 350;
+    margin-top: 8%;
+  }
+
+  .container-events .card-body, .card-body2 {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+  
+
    /*ABOUT*/
+   .cover-container .about-heading1 h1, .cover-container .about-heading2 h1, .cover-container .about-heading3 h1, .cover-container .about-heading4 h1{
+    font-size: 21px;
+  }
+
+  .about-heading1 img, .about-heading2 img, .about-heading3 img, .about-heading4 img {
+    height:50%;
+    width: 100%;
+  }
+
+
+.text1, .text2, .text3, .text4 {
+    text-align: center;
+    font-size: 15px; 
+    letter-spacing: 2px;
+    line-height: 45px;
+    margin-left: 2px;
+    max-width: auto;
+  }
+
+
+.text4 a {
+    font-size: 20px;
+  }
+  
+  .about-main footer p {
+    font-size: 15px;
+    }
+
+
    /*DISCOVER*/
+   .discover .cover-container p {
+    font-size: 18px;
+  }
+  
+  .discover .cover-container h1 {
+    font-size: 30px;
+  }
+  
+ 
+  .cover-container .robot {
+    width: 350;
+    height: 350;
+    margin-top: 15%;
+  }
+  
+  .discover .cover-container .discover-btn {
+    font-size: 18px;
+  }
+
+  .bi {
+    font-size: 10%;
+  }
+
+  .discover .cover-container .discover-people {
+      text-align: center;
+      margin-left: 2%;
+      margin-bottom: 20%;
+  }
+
+  .discover .cover-container .discover-events {
+      text-align: center;
+  }
+  
    /*TEAM*/
-   /*CONTACT*/ 
+   .cover-container .team-header {
+    font-size: 80px;
+    padding-top: 120%;
+    text-align: right;
+    margin-left: 20%;
+  }
+
+  .container-teams img {
+    width: 350;
+    height: 350;
+  }
+
+  
+  .intro-teams {
+    font-size: 30px;
+    padding-top: 85%;
+  }
+
+  .container-teams .card-title {
+    font-size: 30px;
+    text-align: center;
+  }
+ 
+  .container-teams .card-body2 .card-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .container-teams .card-text {
+    font-size: 15px;  
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: justify;
+  }
+  
+  .container-teams .card-body2 .card-text {
+    font-size: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: justify;
+  }
+
+  .teams-main footer p {
+    font-size: 15px;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    /*HOME PAGE*/
+/*HOME PAGE*/
+.home-container .home-title h1{
+    font-size: 75px; 
+    text-align: center;
+    margin-top: -10%;
+}
+
+
+.home-container .home-footer p {
+  font-family: karla;
+  font-size: 15px;
+  text-align: center;
+  color: #E30641;
+  position: relative;
+  margin-top: 10%;
+}
+
    /*EVENTS*/
+   .cover-container .event-title {
+    font-size: 60px;
+    margin-left: 4%;
+    padding-top: 120%;
+  }
+
+  .intro-events h5 {
+    font-size: 40px;
+    margin-top: 130%;
+  }
+  
+  .intro-events .intro-details {
+    padding-bottom: 5%;
+    padding-left: 5%; 
+    padding-right: 5%;
+  }
+  
+  .container-events .intro-details h4 {
+    font-size: 30px;
+  }
+
+  .container-events img {
+    width: 350;
+    height: 350;
+    margin-top: 8%;
+  }
+
+  .container-events .card-body, .card-body2 {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+  
+
    /*ABOUT*/
+   .cover-container .about-heading1 h1, .cover-container .about-heading2 h1, .cover-container .about-heading3 h1, .cover-container .about-heading4 h1{
+    font-size: 21px;
+  }
+
+  .about-heading1 img, .about-heading2 img, .about-heading3 img, .about-heading4 img {
+    height:50%;
+    width: 100%;
+  }
+
+
+.text1, .text2, .text3, .text4 {
+    text-align: center;
+    font-size: 15px; 
+    letter-spacing: 2px;
+    line-height: 45px;
+    margin-left: 2px;
+    max-width: auto;
+  }
+
+
+.text4 a {
+    font-size: 20px;
+  }
+  
+  .about-main footer p {
+    font-size: 15px;
+    }
+
+
    /*DISCOVER*/
+   .discover .cover-container p {
+    font-size: 18px;
+  }
+  
+  .discover .cover-container h1 {
+    font-size: 30px;
+  }
+  
+ 
+  .cover-container .robot {
+    width: 350;
+    height: 350;
+    margin-top: 15%;
+  }
+  
+  .discover .cover-container .discover-btn {
+    font-size: 18px;
+  }
+
+  .bi {
+    font-size: 10%;
+  }
+
+  .discover .cover-container .discover-people {
+      text-align: center;
+      margin-left: 2%;
+      margin-bottom: 20%;
+  }
+
+  .discover .cover-container .discover-events {
+      text-align: center;
+  }
+  
    /*TEAM*/
-   /*CONTACT*/ 
+   .cover-container .team-header {
+    font-size: 80px;
+    padding-top: 120%;
+    text-align: right;
+    margin-left: 20%;
+  }
+
+  .container-teams img {
+    width: 350;
+    height: 350;
+  }
+
+  
+  .intro-teams {
+    font-size: 30px;
+    padding-top: 85%;
+  }
+
+  .container-teams .card-title {
+    font-size: 30px;
+    text-align: center;
+  }
+ 
+  .container-teams .card-body2 .card-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .container-teams .card-text {
+    font-size: 15px;  
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: justify;
+  }
+  
+  .container-teams .card-body2 .card-text {
+    font-size: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: justify;
+  }
+
+  .teams-main footer p {
+    font-size: 15px;
+    }
+ 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    /*HOME PAGE*/
+  /*HOME PAGE*/
+  .home-container .home-title h1{
+    font-size: 75px; 
+    text-align: center;
+    margin-top: -10%;
+}
+
+
+.home-container .home-footer p {
+  font-family: karla;
+  font-size: 15px;
+  text-align: center;
+  color: #E30641;
+  position: relative;
+  margin-top: 10%;
+}
+
    /*EVENTS*/
+   .cover-container .event-title {
+    font-size: 60px;
+    margin-left: 4%;
+    padding-top: 120%;
+  }
+
+  .intro-events h5 {
+    font-size: 40px;
+    margin-top: 130%;
+  }
+  
+  .intro-events .intro-details {
+    padding-bottom: 5%;
+    padding-left: 5%; 
+    padding-right: 5%;
+  }
+  
+  .container-events .intro-details h4 {
+    font-size: 30px;
+  }
+
+  .container-events img {
+    width: 350;
+    height: 350;
+    margin-top: 8%;
+  }
+
+  .container-events .card-body, .card-body2 {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+  
+
    /*ABOUT*/
+   .cover-container .about-heading1 h1, .cover-container .about-heading2 h1, .cover-container .about-heading3 h1, .cover-container .about-heading4 h1{
+    font-size: 21px;
+  }
+
+  .about-heading1 img, .about-heading2 img, .about-heading3 img, .about-heading4 img {
+    height:50%;
+    width: 100%;
+  }
+
+
+.text1, .text2, .text3, .text4 {
+    text-align: center;
+    font-size: 15px; 
+    letter-spacing: 2px;
+    line-height: 45px;
+    margin-left: 2px;
+    max-width: auto;
+  }
+
+
+.text4 a {
+    font-size: 20px;
+  }
+  
+  .about-main footer p {
+    font-size: 15px;
+    }
+
+
    /*DISCOVER*/
+   .discover .cover-container p {
+    font-size: 18px;
+  }
+  
+  .discover .cover-container h1 {
+    font-size: 30px;
+  }
+  
+ 
+  .cover-container .robot {
+    width: 350;
+    height: 350;
+    margin-top: 15%;
+  }
+  
+  .discover .cover-container .discover-btn {
+    font-size: 18px;
+  }
+
+  .bi {
+    font-size: 10%;
+  }
+
+  .discover .cover-container .discover-people {
+      text-align: center;
+      margin-left: 2%;
+      margin-bottom: 20%;
+  }
+
+  .discover .cover-container .discover-events {
+      text-align: center;
+  }
+  
    /*TEAM*/
-   /*CONTACT*/ 
+   .cover-container .team-header {
+    font-size: 80px;
+    padding-top: 120%;
+    text-align: right;
+    margin-left: 20%;
+  }
+
+  .container-teams img {
+    width: 350;
+    height: 350;
+  }
+
+  
+  .intro-teams {
+    font-size: 30px;
+    padding-top: 85%;
+  }
+
+  .container-teams .card-title {
+    font-size: 30px;
+    text-align: center;
+  }
+ 
+  .container-teams .card-body2 .card-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .container-teams .card-text {
+    font-size: 15px;  
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: justify;
+  }
+  
+  .container-teams .card-body2 .card-text {
+    font-size: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: justify;
+  }
+
+  .teams-main footer p {
+    font-size: 15px;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    /*HOME PAGE*/
+/*HOME PAGE*/
+.home-container .home-title h1{
+    font-size: 75px; 
+    text-align: center;
+    margin-top: -10%;
+}
+
+
+.home-container .home-footer p {
+  font-family: karla;
+  font-size: 15px;
+  text-align: center;
+  color: #E30641;
+  position: relative;
+  margin-top: 10%;
+}
+
    /*EVENTS*/
+   .cover-container .event-title {
+    font-size: 60px;
+    margin-left: 4%;
+    padding-top: 120%;
+  }
+
+  .intro-events h5 {
+    font-size: 40px;
+    margin-top: 130%;
+  }
+  
+  .intro-events .intro-details {
+    padding-bottom: 5%;
+    padding-left: 5%; 
+    padding-right: 5%;
+  }
+  
+  .container-events .intro-details h4 {
+    font-size: 30px;
+  }
+
+  .container-events img {
+    width: 350;
+    height: 350;
+    margin-top: 8%;
+  }
+
+  .container-events .card-body, .card-body2 {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+  
+
    /*ABOUT*/
+   .cover-container .about-heading1 h1, .cover-container .about-heading2 h1, .cover-container .about-heading3 h1, .cover-container .about-heading4 h1{
+    font-size: 21px;
+  }
+
+  .about-heading1 img, .about-heading2 img, .about-heading3 img, .about-heading4 img {
+    height:50%;
+    width: 100%;
+  }
+
+
+.text1, .text2, .text3, .text4 {
+    text-align: center;
+    font-size: 15px; 
+    letter-spacing: 2px;
+    line-height: 45px;
+    margin-left: 2px;
+    max-width: auto;
+  }
+
+
+.text4 a {
+    font-size: 20px;
+  }
+  
+  .about-main footer p {
+    font-size: 15px;
+    }
+
+
    /*DISCOVER*/
+   .discover .cover-container p {
+    font-size: 18px;
+  }
+  
+  .discover .cover-container h1 {
+    font-size: 30px;
+  }
+  
+ 
+  .cover-container .robot {
+    width: 350;
+    height: 350;
+    margin-top: 15%;
+  }
+  
+  .discover .cover-container .discover-btn {
+    font-size: 18px;
+  }
+
+  .bi {
+    font-size: 10%;
+  }
+
+  .discover .cover-container .discover-people {
+      text-align: center;
+      margin-left: 2%;
+      margin-bottom: 20%;
+  }
+
+  .discover .cover-container .discover-events {
+      text-align: center;
+  }
+  
    /*TEAM*/
-   /*CONTACT*/ 
+   .cover-container .team-header {
+    font-size: 80px;
+    padding-top: 120%;
+    text-align: right;
+    margin-left: 20%;
+  }
+
+  .container-teams img {
+    width: 350;
+    height: 350;
+  }
+
+  
+  .intro-teams {
+    font-size: 30px;
+    padding-top: 85%;
+  }
+
+  .container-teams .card-title {
+    font-size: 30px;
+    text-align: center;
+  }
+ 
+  .container-teams .card-body2 .card-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .container-teams .card-text {
+    font-size: 15px;  
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: justify;
+  }
+  
+  .container-teams .card-body2 .card-text {
+    font-size: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: justify;
+  }
+
+  .teams-main footer p {
+    font-size: 15px;
+    }
+
 }
