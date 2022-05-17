@@ -262,7 +262,7 @@
 }
 
 .cover-container .about-heading1 h1, .cover-container .about-heading3 h1{
-  margin-top: -30%;
+  margin-top: -40%;
   margin-left: 50%;
 
 }
@@ -274,7 +274,7 @@
 
 .about-heading1 img, .about-heading2 img, .about-heading3 img, .about-heading4 img {
   object-fit: cover; 
-  height:90%;
+  height:65%;
   width: 100%;
 }
 
