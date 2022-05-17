@@ -51,9 +51,7 @@
   header .nav {
       position: relative;
       padding-top: 5%;
-      margin-left: 25%;
-      border: solid 2px black; 
-    
+      margin-left: 25%;    
   }
 
   header img {
