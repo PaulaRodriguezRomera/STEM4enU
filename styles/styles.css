@@ -102,8 +102,13 @@
   color: #0A2F43; 
   font-weight: bold;
   padding-bottom: 5%;
+  padding-top: 5%;
   padding-left: 5%; 
   padding-right: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  border: dotted 2px #E30641; 
+  border-radius: 2%;
 }
 
 .container-events .intro-details h4 {
