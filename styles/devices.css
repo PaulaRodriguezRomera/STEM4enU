@@ -28,10 +28,15 @@
   
   .intro-events .intro-details {
     padding-bottom: 5%;
+    padding-top: 5%;
     padding-left: 5%; 
     padding-right: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: dotted 2px #E30641; 
+    border-radius: 2%;
   }
-
+  
   .container-events .intro-details h4 {
     font-size: 30px;
   }
@@ -751,14 +756,22 @@
     .intro-events h5 {
       font-size: 40px;
       padding-top: 10%;
+      padding-bottom: 2%;
       
     }
-    
+
     .intro-events .intro-details {
-      padding-bottom: 5%;
-      padding-left: 5%; 
-      padding-right: 5%;
+      padding-bottom: 2%;
+      padding-top: 2%;
+      padding-left: 2%; 
+      padding-right: 2%;
+      margin-right: 20%;
+      margin-left: 20%;
+      border: dotted 2px #E30641; 
+      border-radius: 2%;
     }
+    
+   
     
     .container-events .intro-details h4 {
       font-size: 30px;
