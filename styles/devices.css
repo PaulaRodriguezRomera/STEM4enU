@@ -16,14 +16,14 @@
 
    /*EVENTS*/
    .cover-container .event-title {
-    font-size: 60px;
+    font-size: 50px;
     margin-left: 4%;
-    padding-top: 120%;
+    padding-top: 140%;
   }
 
   .intro-events h5 {
     font-size: 40px;
-    margin-top: 155%;
+    margin-top: 190%;
   }
   
   .intro-events .intro-details {
@@ -126,10 +126,10 @@
   
    /*TEAM*/
    .cover-container .team-header {
-    font-size: 80px;
-    padding-top: 100%;
+    font-size: 95px;
+    padding-top: 150%;
     text-align: right;
-    margin-left: 20%;
+    margin-left: 23%;
   }
 
   .container-teams img {
@@ -139,8 +139,10 @@
 
   
   .intro-teams {
-    font-size: 30px;
-    padding-top: 120%;
+    font-size: 40px;
+    padding-top: 158%;
+    padding-left:2%;
+    padding-right: 2%;
   }
 
   .container-teams .card-title {
