@@ -586,8 +586,12 @@ margin-top: -5%;
   transition: 0.5s;
 }
 
-header span {
+.menu-button{
   position: relative;
+  font-size: 45px;
+  cursor:pointer; 
+  margin-left: 80%; 
+  color: #E30641; 
 }
 
 .overlay-content {
@@ -602,7 +606,7 @@ header span {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
 }

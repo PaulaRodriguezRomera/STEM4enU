@@ -197,6 +197,17 @@
       height: 70px;
     }
 
+    /*MENU*/
+    .menu-button{
+      position: relative;
+      font-size: 50px;
+      cursor:pointer; 
+      color: #E30641; 
+    }
+
+    .cover-container header .logo-menu{
+      display: none;
+    }
 
 }
 
@@ -360,6 +371,17 @@
     font-size: 15px;
     }
 
+      /*MENU*/
+      .menu-button{
+        position: relative;
+        font-size: 50px;
+        cursor:pointer; 
+        color: #E30641; 
+      }
+  
+      .cover-container header .logo-menu{
+        display: none;
+      }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -558,6 +580,19 @@
     #message {
       height: 150px;
     }
+
+      /*MENU*/
+      .menu-button{
+        position: relative;
+        font-size: 50px;
+        cursor:pointer; 
+        color: #E30641; 
+        margin-left: 88%;
+      }
+  
+      .cover-container header .logo-menu{
+        display: none;
+      }
  
 }
 
@@ -928,4 +963,15 @@
 #message {
   height: 100px;
 }
+
+ /*MENU*/
+ .menu-button{
+  position: relative;
+  font-size: 50px;
+  cursor:pointer; 
+  color: #E30641; 
+  margin-left: 90%;
 }
+
+}
+
