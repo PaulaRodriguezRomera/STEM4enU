@@ -29,12 +29,12 @@
 
  .home-container .home-title h1{
     color: #E30641;
-    font-size: 95px; 
+    font-size: 90px; 
     font-family: karla; 
     text-align: center;
     display: inline-block;
     position: relative;
-    margin-top: -13%;
+    margin-top: -15%;
 }
 
 
@@ -47,21 +47,6 @@
   margin-top: 10%;
 }
 
-
-  header .nav {
-      position: relative;
-      padding-top: 5%;
-      margin-left: 25%;    
-  }
-
-  header img {
-    position: relative;
-    margin-left: 5%;
-  }
-
-.nav .nav-link {
-      color: #E30641;
-  }
 
 /*EVENTS*/
 .events-main {
