@@ -3,14 +3,14 @@
 @media only screen and (max-width: 600px) {
    /*HOME PAGE*/
    .home-container .home-title h1{
-    font-size: 75px; 
+    font-size: 63px; 
     text-align: center;
-    margin-top: -10%;
+    margin-top: 15%;
 }
 
 
 .home-container .home-footer p {
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 10%;
 }
 
@@ -23,7 +23,7 @@
 
   .intro-events h5 {
     font-size: 40px;
-    margin-top: 130%;
+    margin-top: 155%;
   }
   
   .intro-events .intro-details {
@@ -43,7 +43,7 @@
 
   .container-events img {
     width: 350;
-    height: 350;
+    height:350;
     margin-top: 8%;
   }
 
@@ -140,7 +140,7 @@
   
   .intro-teams {
     font-size: 30px;
-    padding-top: 85%;
+    padding-top: 120%;
   }
 
   .container-teams .card-title {
