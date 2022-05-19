@@ -992,6 +992,8 @@
 
 }
 
+/*----------------------------------------------------------------------------------------*/
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     /*HOME PAGE*/
@@ -1015,12 +1017,12 @@
      .cover-container .event-title {
       font-size: 80px;
       margin-left: 4%;
-      margin-top: -3%;
+      margin-top: -90%;
     }
   
     .intro-events h5 {
       font-size: 40px;
-      padding-top: 1%;
+      margin-top: 30%;
       padding-bottom: 2%;
       
     }
