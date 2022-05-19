@@ -209,10 +209,6 @@
      font-size: 50px;
      margin-left: 80%; 
 
-   .cover-container header .logo-menu{
-     display: none;
-   }
-
 }
 
 
@@ -1214,6 +1210,4 @@
   cursor:pointer; 
   color: #E30641; 
 }
-
 }
-
