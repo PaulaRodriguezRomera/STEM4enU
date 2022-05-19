@@ -73,6 +73,13 @@
   margin-top: 8%;
   text-align: center;
   font-family: karla;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+
 }
 
 .intro-events h5 {
@@ -150,7 +157,7 @@
   color: #E30641; 
 }
 
-.events-main footer p {
+.container-events footer p {
     color: #E30641; 
     background-color: #0A2F43;
     text-align: center;
@@ -159,8 +166,9 @@
     padding-bottom: 2%;
     }
     
-  .events-main footer {
+  .container-events footer {
       margin-top: 5%;
+      width: 100%;
     }
 
 
