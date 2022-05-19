@@ -1,6 +1,226 @@
 
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+
+  /*HOME PAGE*/
+  .home-container .home-title h1{
+   font-size: 63px; 
+   text-align: center;
+   margin-top: 15%;
+}
+
+
+.home-container .home-footer p {
+ font-size: 18px;
+ margin-top: 10%;
+}
+
+  /*EVENTS*/
+  .cover-container .event-title {
+   font-size: 50px;
+   margin-left: 4%;
+   padding-top: 140%;
+ }
+
+ .intro-events h5 {
+   font-size: 40px;
+   margin-top: 190%;
+ }
+ 
+ .intro-events .intro-details {
+   padding-bottom: 5%;
+   padding-top: 5%;
+   padding-left: 5%; 
+   padding-right: 5%;
+   margin-right: 5%;
+   margin-left: 5%;
+   border: dotted 2px #E30641; 
+   border-radius: 2%;
+ }
+ 
+ .container-events .intro-details h4 {
+   font-size: 30px;
+ }
+
+ .container-events img {
+   width: 350;
+   height:350;
+   margin-top: 8%;
+ }
+
+ .container-events .card-body, .card-body2 {
+   padding-left: 5%;
+   padding-right: 5%;
+   text-align: center;
+ }
+ 
+
+  /*ABOUT*/
+  .cover-container .about-heading1 h1, .cover-container .about-heading4 h1{
+   font-size: 23px;
+ }
+
+ .cover-container .about-heading2 h1,.cover-container .about-heading3 h1 {
+   font-size: 20px;
+   padding-right: 3%;
+ }
+
+ .about-heading1 img, .about-heading2 img, .about-heading3 img, .about-heading4 img {
+   height: 60%;
+   width: 100%;
+ }
+
+
+.text1, .text2, .text3, .text4 {
+   text-align: center;
+   font-size: 18px; 
+   letter-spacing: 2px;
+   line-height: 45px;
+   margin-left: 3px;
+   margin-top: -8%;
+   margin-bottom: 18%;
+ }
+
+
+.text4 a {
+   font-size: 20px;
+ }
+ 
+ .about-main footer p {
+   font-size: 15px;
+   }
+
+
+  /*DISCOVER*/
+  .discover .cover-container p {
+   font-size: 18px;
+ }
+ 
+ .discover .cover-container h1 {
+   font-size: 30px;
+ }
+ 
+
+ .cover-container .robot {
+   width: 350;
+   height: 350;
+   margin-top: 15%;
+ }
+ 
+ .discover .cover-container .discover-btn {
+   font-size: 18px;
+ }
+
+ .bi {
+   font-size: 10%;
+ }
+
+ .discover .cover-container .discover-people {
+     text-align: center;
+     margin-left: 2%;
+     margin-bottom: 20%;
+ }
+
+ .discover .cover-container .discover-events {
+     text-align: center;
+ }
+ 
+  /*TEAM*/
+  .cover-container .team-header {
+   font-size: 95px;
+   padding-top: 150%;
+   text-align: right;
+   margin-left: 23%;
+ }
+
+ .container-teams img {
+   width: 350;
+   height: 350;
+ }
+
+ 
+ .intro-teams {
+   font-size: 40px;
+   padding-top: 158%;
+   padding-left:2%;
+   padding-right: 2%;
+ }
+
+ .container-teams .card-title {
+   font-size: 30px;
+   text-align: center;
+ }
+
+ .container-teams .card-body2 .card-title {
+   font-size: 30px;
+   text-align: center;
+ }
+ 
+ .container-teams .card-text {
+   font-size: 15px;  
+   padding-left: 1%;
+   padding-right: 1%;
+   text-align: justify;
+ }
+ 
+ .container-teams .card-body2 .card-text {
+   font-size: 15px;
+   padding-left: 1%;
+   padding-right: 1%;
+   text-align: justify;
+ }
+
+ .teams-main footer p {
+   font-size: 15px;
+   }
+
+
+    /*CONTACT*/
+    .card {
+     padding: 12%;
+     padding-bottom: 10%;
+     padding-top: 5%;
+     background-color: #0A2F43;
+     border-radius: 2%;
+     margin-top: 8%;
+   }
+   
+   .card h4{
+     font-family: karla;
+     color: white;
+     text-transform: uppercase;
+     font-size: 30px;
+   }
+
+   #e-mail {
+     height: 40px;
+   }
+   
+   #message {
+     height: 70px;
+   }
+
+   /*MENU*/
+   .menu-button{
+     position: relative;
+     font-size: 50px;
+     cursor:pointer; 
+     color: #E30641; 
+   }
+
+   .cover-container header .logo-menu{
+     display: none;
+   }
+
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/
+
+
+
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (orientation: landscape) {
    /*HOME PAGE*/
    .home-container .home-title h1{
     font-size: 63px; 
@@ -213,6 +433,9 @@
 
 }
 
+/*--------------------------------------------------------------------------------------------*/
+
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
    /*HOME PAGE*/
@@ -386,8 +609,11 @@
       }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+
+/*------------------------------------------------------------------------------------------*/
+
+/* Medium devices (landscape tablets, 768px and up 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 /*HOME PAGE*/
 .home-container .home-title h1{
     font-size: 150px; 
@@ -413,7 +639,7 @@
 
   .intro-events h5 {
     font-size: 40px;
-    margin-top: 280px;
+    margin-top: 450px;
   }
   
   .intro-events .intro-details {
@@ -598,8 +824,10 @@
  
 }
 
+/*-----------------------------------------------------------------------------------*/
+
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
   /*HOME PAGE*/
   .home-container .home-title h1{
     font-size: 120px; 
@@ -731,7 +959,7 @@
   
   .intro-teams {
     font-size: 40px;
-    padding-top: 5%;
+    padding-top: 30%;
   }
 
   .container-teams .card-title {
@@ -792,7 +1020,7 @@
   
     .intro-events h5 {
       font-size: 40px;
-      padding-top: 10%;
+      padding-top: 1%;
       padding-bottom: 2%;
       
     }
@@ -909,7 +1137,7 @@
     
     .intro-teams {
       font-size: 45px;
-      margin-top: 20%;
+      margin-top: 10%;
     }
   
     .container-teams .card-title {
