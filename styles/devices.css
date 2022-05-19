@@ -130,8 +130,8 @@
  
   /*TEAM*/
   .cover-container .team-header {
-   font-size: 60px;
-   padding-top: 150%;
+   font-size: 50px;
+   padding-top: 20%;
    text-align: right;
    margin-left: 23%;
  }
@@ -352,7 +352,7 @@
    /*TEAM*/
    .cover-container .team-header {
     font-size: 60px;
-    padding-top: 150%;
+    padding-top: 60%;
     text-align: right;
     margin-left: 23%;
   }
@@ -559,7 +559,7 @@
    /*TEAM*/
    .cover-container .team-header {
     font-size: 60px;
-    padding-top: 120%;
+    padding-top: 30%;
     text-align: right;
     margin-left: 20%;
   }
