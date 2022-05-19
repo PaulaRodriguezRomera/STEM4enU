@@ -130,10 +130,10 @@
  
   /*TEAM*/
   .cover-container .team-header {
-   font-size: 50px;
-   padding-top: 20%;
+   font-size: 60px;
+   padding-top: 120%;
    text-align: right;
-   margin-left: 23%;
+   margin-left: 38%;
  }
 
  .container-teams img {
@@ -207,9 +207,7 @@
    .menu-button{
      position: relative;
      font-size: 50px;
-     cursor:pointer; 
-     color: #E30641; 
-   }
+     margin-left: 80%; 
 
    .cover-container header .logo-menu{
      display: none;
@@ -352,9 +350,9 @@
    /*TEAM*/
    .cover-container .team-header {
     font-size: 60px;
-    padding-top: 60%;
+    padding-top: 120%;
     text-align: right;
-    margin-left: 23%;
+    margin-left: 38%;
   }
 
   .container-teams img {
@@ -428,8 +426,7 @@
     .menu-button{
       position: relative;
       font-size: 50px;
-      cursor:pointer; 
-      color: #E30641; 
+      margin-left: 80%; 
     }
 
     .cover-container header .logo-menu{
@@ -462,7 +459,7 @@
   }
 
   .intro-events{
-    margin-top: 40%;
+    margin-top: 195%;
   }
 
   .intro-events h5 {
@@ -559,11 +556,11 @@
    /*TEAM*/
    .cover-container .team-header {
     font-size: 60px;
-    padding-top: 30%;
+    padding-top: 120%;
     text-align: right;
-    margin-left: 20%;
+    margin-left: 38%;
   }
-
+  
   .container-teams img {
     width: 350;
     height: 350;
@@ -643,9 +640,12 @@
     height: 35%;
 }
 
+.intro-events{
+  margin-top: 50%;
+}
+
   .intro-events h5 {
     font-size: 40px;
-    margin-top: 25px;
   }
   
   .intro-events .intro-details {
@@ -745,7 +745,7 @@
    /*TEAM*/
    .cover-container .team-header {
     font-size:70px;
-    padding-top: 25%;
+    padding-top: 20%;
     text-align: left;
     margin-right: 50%;
     margin-left: 5%;
@@ -855,10 +855,10 @@
     margin-left: 4%;
   }
 
+
   .intro-events h5 {
     font-size: 40px;
-    padding-top: 20%;
-    
+    margin-top: 50%;
   }
   
   .intro-events .intro-details {
@@ -949,12 +949,16 @@
       text-align: center;
   }
   
-   /*TEAM*/
-   .cover-container .team-header {
-    font-size: 120px;
-    padding-top: 20%;
-    text-align: left;
-  }
+   
+    /*TEAM*/
+    .cover-container .team-header {
+      font-size:70px;
+      padding-top: 20%;
+      text-align: left;
+      margin-right: 50%;
+      margin-left: 5%;
+    }
+  
 
   .container-teams img {
     width: 490; 
@@ -1027,13 +1031,11 @@
       
     }
 
-    .intro-events{
-      margin-top: 20%;
-    }
-  
-    .intro-events h5 {
+      
+      .intro-events h5 {
       font-size: 40px;
-      padding-bottom: 2%;   
+      padding-bottom: 2%; 
+      margin-top: 50%;
     }
 
     .intro-events .intro-details {
@@ -1133,9 +1135,11 @@
     
      /*TEAM*/
      .cover-container .team-header {
-      font-size: 120px;
-      padding-top: 15%;
+      font-size:95px;
+      padding-top: 20%;
       text-align: left;
+      margin-right: 50%;
+      margin-left: 5%;
     }
   
     .container-teams img {
