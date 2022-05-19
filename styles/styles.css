@@ -56,7 +56,9 @@
   width: 100%;
   top: 0;
   left: 0;
+  margin-bottom: 20%;
 }
+
 
 
 .event-title {
@@ -74,14 +76,12 @@
   margin-top: 8%;
   text-align: center;
   font-family: karla;
-  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
-
 }
+
+
 
 .intro-events h5 {
   font-family: quicksand;
