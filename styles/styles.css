@@ -59,14 +59,15 @@
 }
 
 
-.cover-container .event-title {
+.event-title {
   color: #E30641;
   font-family: Zhi Mang Xing;
-  font-size: 80px;
+  font-size: 50px;
   letter-spacing: 3px;
   text-align: left;
   margin-left: 4%;
-  padding-top: 23%;
+  padding-top: 35%;
+  position: relative;
 }
 
 .container-events {

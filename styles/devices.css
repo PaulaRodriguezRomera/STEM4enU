@@ -23,8 +23,8 @@
  }
 
  .intro-events h5 {
-   font-size: 40px;
-   margin-top: 190%;
+   font-size: 20px;
+   margin-top: 25%;
  }
  
  .intro-events .intro-details {
@@ -243,7 +243,7 @@
 
   .intro-events h5 {
     font-size: 40px;
-    margin-top: 190%;
+    margin-top: 25%;
   }
   
   .intro-events .intro-details {
@@ -459,7 +459,7 @@
 
   .intro-events h5 {
     font-size: 40px;
-    margin-top: 130%;
+    margin-top: 25%;
   }
   
   .intro-events .intro-details {
@@ -639,7 +639,7 @@
 
   .intro-events h5 {
     font-size: 40px;
-    margin-top: 450px;
+    margin-top: 25px;
   }
   
   .intro-events .intro-details {
@@ -1014,16 +1014,16 @@
       height: 100%;
   }
   
-     .cover-container .event-title {
+     .event-title {
       font-size: 80px;
-      margin-left: 4%;
-      margin-top: -100%;
+      text-align: center;
+      
     }
   
     .intro-events h5 {
       font-size: 40px;
-      margin-top: 30%;
       padding-bottom: 2%;
+      margin-top: 30%;
       
     }
 
