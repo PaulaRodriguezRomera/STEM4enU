@@ -19,12 +19,15 @@
   .cover-container .event-title {
    font-size: 50px;
    margin-left: 4%;
-   padding-top: 140%;
+   margin-top: 35%;
  }
 
+ .intro-events{
+  margin-top: 195%;
+}
+
  .intro-events h5 {
-   font-size: 20px;
-   margin-top: 25%;
+   font-size: 40px;
  }
  
  .intro-events .intro-details {
@@ -238,12 +241,14 @@
    .cover-container .event-title {
     font-size: 50px;
     margin-left: 4%;
-    padding-top: 140%;
+  }
+
+  .intro-events{
+    margin-top: 195%;
   }
 
   .intro-events h5 {
     font-size: 40px;
-    margin-top: 50%;
   }
   
   .intro-events .intro-details {
@@ -454,14 +459,14 @@
    .cover-container .event-title {
     font-size: 60px;
     margin-left: 4%;
-    padding-top: 120%;
   }
 
- 
+  .intro-events{
+    margin-top: 40%;
+  }
 
   .intro-events h5 {
     font-size: 40px;
-    margin-top: 25%;
   }
   
   .intro-events .intro-details {
@@ -632,7 +637,6 @@
    .cover-container .event-title {
     font-size: 70px;
     margin-left: 4%;
-    padding-top: 25%;
   }
 
 .cover-container img {
@@ -817,7 +821,6 @@
         font-size: 50px;
         cursor:pointer; 
         color: #E30641; 
-        margin-left: 88%;
       }
   
       .cover-container header .logo-menu{
@@ -1012,21 +1015,25 @@
   }
   
      /*EVENTS*/
+  
      .cover-container img {
       height: 100%;
   }
   
      .event-title {
       font-size: 80px;
-      text-align: center;
+      text-align: left;
+      font-family: karla;
       
+    }
+
+    .intro-events{
+      margin-top: 20%;
     }
   
     .intro-events h5 {
       font-size: 40px;
-      padding-bottom: 2%;
-      margin-top: 50%;
-      
+      padding-bottom: 2%;   
     }
 
     .intro-events .intro-details {
@@ -1038,7 +1045,7 @@
       margin-left: 10%;
       margin-top: 5%;
     }
-    
+
   
     .container-events .intro-details h4 {
       font-size: 30px;
@@ -1115,7 +1122,7 @@
         text-align: center;
         margin-left: 20%;
         margin-bottom: 20%;
-        margin-top: -30%;
+        margin-top: -25%;
     }
   
     .discover .cover-container .discover-events {
@@ -1202,7 +1209,6 @@
   font-size: 50px;
   cursor:pointer; 
   color: #E30641; 
-  margin-left: 90%;
 }
 
 }
