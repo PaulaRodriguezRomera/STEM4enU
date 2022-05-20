@@ -156,6 +156,13 @@
   color: #E30641; 
 }
 
+.flyer{
+font-family: karla;
+font-size: 30px;
+color: #E30641;
+padding-bottom: 5%;
+}
+
 .container-events footer p {
     color: #E30641; 
     background-color: #0A2F43;
