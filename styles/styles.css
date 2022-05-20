@@ -444,6 +444,14 @@ input.btn {
   margin-top: 35%;
 }
 
+.container-teams .card-positions {
+ color: #E30641;
+ font-family: karla;
+ padding-bottom: 2%;
+ font-size: 25px;
+ 
+}
+
 .container-teams .intro-teams2 {
   font-family: quicksand;
   font-size: 35px;
