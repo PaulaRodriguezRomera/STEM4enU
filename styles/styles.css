@@ -530,6 +530,14 @@ input.btn {
   letter-spacing: 1px;
 }
 
+.container-teams button a {
+  color: #E30641;
+}
+
+.container-teams a {
+  color: #E30641;
+}
+
 .teams-main footer p {
     color: #E30641; 
     background-color: #0A2F43;
