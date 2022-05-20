@@ -59,16 +59,12 @@
  
 
   /*ABOUT*/
-  .cover-container .about-heading1 h1, .cover-container .about-heading4 h1{
-   font-size: 25px;
- }
-
- .cover-container .about-heading2 h1 {
-   font-size: 25px;
+ .cover-container .about-heading2 h1, .cover-container .about-heading4 h1 {
+   font-size: 20px;
    padding-right: 3%;
  }
 
- .cover-container .about-heading3 h1 {
+ .cover-container .about-heading1 h1, .cover-container .about-heading3 h1 {
  font-size: 20px;
  padding-bottom: 5%;
  }
