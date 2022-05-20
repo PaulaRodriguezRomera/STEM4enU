@@ -502,7 +502,7 @@ input.btn {
 
 }
 
-.container-teams .card-title {
+.container-teams .card-body .card-title {
   color: #E30641;
   font-size: 35px;
   text-align: right;
@@ -522,8 +522,6 @@ input.btn {
   font-size: 18px;
   text-align: justify;
   letter-spacing: 1px;
-  padding-bottom: 10%;
-
 }
 
 .container-teams .card-body2 .card-text {

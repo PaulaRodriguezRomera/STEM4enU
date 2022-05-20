@@ -1151,14 +1151,19 @@
       margin-top: 10%;
     }
   
-    .container-teams .card-title {
+    .container-teams .card-body .card-title {
       font-size: 35px;
       text-align: center;
+      margin-top: -10%;
     }
  
     .container-teams .card-body2 .card-title {
       font-size: 35px;
       text-align: center;
+    }
+
+    .container-teams .card-body2 {
+      margin-top: 5%;
     }
     
     .container-teams .card-text {
