@@ -60,12 +60,17 @@
 
   /*ABOUT*/
   .cover-container .about-heading1 h1, .cover-container .about-heading4 h1{
-   font-size: 23px;
+   font-size: 25px;
  }
 
- .cover-container .about-heading2 h1,.cover-container .about-heading3 h1 {
-   font-size: 20px;
+ .cover-container .about-heading2 h1 {
+   font-size: 25px;
    padding-right: 3%;
+ }
+
+ .cover-container .about-heading3 h1 {
+ font-size: 20px;
+ padding-bottom: 5%;
  }
 
  .about-heading1 img, .about-heading2 img, .about-heading3 img, .about-heading4 img {
@@ -80,7 +85,7 @@
    letter-spacing: 2px;
    line-height: 45px;
    margin-left: 3px;
-   margin-top: -1%;
+   margin-top: -12%;
    margin-bottom: 18%;
  }
 
