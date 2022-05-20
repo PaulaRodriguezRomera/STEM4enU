@@ -444,6 +444,15 @@ input.btn {
   margin-top: 35%;
 }
 
+.container-teams .intro-teams2 {
+  font-family: quicksand;
+  font-size: 35px;
+  color: #0A2F43; 
+  padding-bottom: 5%;
+  padding-top: 5%;
+
+}
+
 .container-teams {
   margin-top: 5%;
   text-align: center;
