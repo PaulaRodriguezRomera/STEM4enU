@@ -827,7 +827,7 @@
 
 /*-----------------------------------------------------------------------------------*/
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 1024px and up) */
 @media only screen and (min-width: 1024px) {
   /*HOME PAGE*/
   .home-container .home-title h1{
@@ -851,10 +851,11 @@
     margin-left: 4%;
   }
 
-
+.container-events .intro-events {
+  margin-top:60%;
+}
   .intro-events h5 {
     font-size: 40px;
-    margin-top: 50%;
   }
   
   .intro-events .intro-details {
