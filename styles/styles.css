@@ -124,16 +124,16 @@
 
 .container-events .card-title {
   color: #E30641;
-  font-size: 30px;
-  text-align: right;
+  font-size: 22px;
+  text-align: center;
   padding-bottom: 2%;
   letter-spacing: 3px;
 }
 
 .container-events .card-body2 .card-title {
   color: #E30641;
-  font-size: 30px;
-  text-align: left;
+  font-size: 22px;
+  text-align: center;
   padding-bottom: 2%;
   letter-spacing: 3px;
 }
