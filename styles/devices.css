@@ -69,7 +69,7 @@
  }
 
  .about-heading1 img, .about-heading2 img, .about-heading3 img, .about-heading4 img {
-   height: 60%;
+   height: 45%;
    width: 100%;
  }
 
@@ -80,7 +80,7 @@
    letter-spacing: 2px;
    line-height: 45px;
    margin-left: 3px;
-   margin-top: -8%;
+   margin-top: -1%;
    margin-bottom: 18%;
  }
 
@@ -491,8 +491,8 @@
   }
 
   .about-heading1 img, .about-heading2 img, .about-heading3 img, .about-heading4 img {
-    height:30%;
-    width: 80%;
+    height:50%;
+    width: 100%;
   }
 
 
