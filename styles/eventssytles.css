@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Black+Ops+One&family=Gugi&family=Karla:wght@500&family=Monofett&family=Monoton&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+
+
+
+/*MEET THE TEAM*/ 
+
+.jumbotron {
+  background-image: url("../gallery/windmill.jpg");
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-size: cover; 
+  height: 750px; 
+  width: 100%;
+}
+
+.jumbotron h1 {
+  font-family: Zhi Mang Xing;
+  color: #E30641;
+  padding-left: 5%;
+  padding-top: 10%;
+  font-size: 90px;
+}
+
+.event-title{
+  font-family: Zhi Mang Xing;
+  font-size: 50px;
+  color: #E30641;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.flyer {
+    border: solid 3px #E30641; 
+}
+
+/*WORKSHOPS*/
+.container .card {
+    border: solid 2px #E30641;
+}
+
+.card .card-title {
+    font-family: karla;
+    color: #E30641;
+    font-size: 20px;
+}
+
+.card .card-body a {
+    color: #E30641;
+}
+
+.card .card-body .leaders {
+    color: #E30641;
+    text-decoration: underline;
+
+}
+
+.card .card-body .card-text {
+    font-family: quicksand;
+    line-height: 190%;
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.btn {
+    border: solid 1px #E30641; 
+    margin-top: 8%;
+}
+
+/*MENU*/ 
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .menu-button{
+    position: relative;
+    font-size: 45px;
+    cursor:pointer; 
+    margin-left: 90%; 
+    color: #E30641; 
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  
+  /*FOOTER*/
+  .event-footer {
+    font-family: karla;
+    color: #E30641;
+    background-color: #0A2F43;
+    font-size: 18px;
+    margin-top: 8%;
+    padding: 1%;
+    border-top: solid 3px #E30641;
+  }

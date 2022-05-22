@@ -1,39 +1,21 @@
 <html lang="en">
 <head>
-
-    <!--Required meta tags-->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/devices.css">
-
+    <!--Boostrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/eventssytles.css">
 
     <title>STEM4enU</title>
 </head>
-<body class="d-flex"> 
+<body>
+<header>
+<nav>
+    <div class="jumbotron jumbotron-fluid">
+        <!--MENU-->
 
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-
-       <img src="gallery/windmill.jpg" alt="windmill-image" class="events-main">
-
-        <h1 class="event-title">Roadmap to the future <span style = "display: block;">of STEM</span></h1>
-</div>
-
-<main>
-    
-<!--Our events -->
-<div class="container-events justify-content-center">
-
-        <!--Menu-->
-        <header>
-
-            <!--<img src="gallery/napierlogo4.png" alt="logo"  width="100" height="100" class="logo-menu">-->
-                    
-            <div id="myNav" class="overlay">
+        <div id="myNav" class="overlay justify-content-end">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
                 <a href="index.html">Home</a>
@@ -46,157 +28,123 @@
     
     
             <span class="menu-button" onclick="openNav()">&#9776;</span>
+
     
-        </header> 
-
-    <div class="row">
-        <div class="col-12">
-
-            <div class="intro-events">
-                <h5 class="intro-events">Your future, your STEM!</h5>
-                <div class="intro-details">
-                        <h4>6 - 10 June 2022</h4>
-                        <p>New S4 pupils will engage in activities designed to promote collaborative learning, creative thinking, problem solving and communication skills.</p>
-                        <p>All activities are aligned with Curriculum for Excellence.</p>
-                        <p>Daily from 9:30 am to 2:45 pm</p>
-                        <p>Lunch will be provided.</p>
-                </div>
-        
-            </div>
-        </div>
+         <h1>Roadmap to the future <span style = "display: block;">of STEM</span></h1>
     </div>
-            
-    <!--Event 1-->
-<div class="row">
-    <div class="event1">
-        <div class="row no-gutters">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="card-body">
-                    <h5 class="card-title">Artificial Intelligence in operations research</h5>
-                    <a  href="team.html">Workshop leader Neil Urquhart</a>
-                    <p class="card-text">
-                        Each day Computer Science solves many problems that improve our lives and supports society. 
-                        One of the most challenging areas is that of deliveries, ensuring that goods and services are delivered quickly and efficiently. 
-                        This workshop introduces you to one of the fundamental problems in computer science, the Travelling Salesperson Problem. 
-                        Although simple to understand, the problem is deceptively complex to solve. Using a problem based on the center of Edinburgh, we begin by trying to solve our problem manually. 
-                        We then investigate how a simple rule called a Heuristic can help us solve the problem. Finally we use a simple Artificial Intelligence algorithm to help us find a solution quickly. 
-                        Even if you've never written any programme code before you will find this an interesting introduction to computer science. 
-                        We'll be using the Python language and data from Open Street map so you'll be working with tools used by Computer Science students and professionals.
-                    </p>
-                    <button type="button" class="btn btn-outline-danger"><a href="contact.html">Sign Up Now</a></button>
-                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <img src="gallery/coding.png" class="card-img-top" alt="about">
-            </div>
-        </div>
-    </div>
-</div>
-
-        
-    <!--Event 2-->
-<div class="row">
-    <div class="event2">  
-        <div class="row no-gutters">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <img src="gallery/info-seeking.png" class="card-img-top" alt="about2">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="card-body2">
-                    <h5 class="card-title">Information and feedback systems for decision making</h5>
-                    <a href="team.html">Workshop leader Wegene Demeke</a>
-                    <p class="card-text">
-                        We made decisions all the time. Information is a key to make informed decisions. 
-                        This workshop will introduce you to how previous decisions affect future outcomes, sometimes with delayed responses. 
-                        We will introduce you to the role and impact of feedback. You will participate in building simple models and see the results of your decisions on various aspects of social and business entities, such as population growth, business profits, and growth of customer numbers. 
-                        The model will enable you to explore likely future outputs based on current decisions.
-                    </p>
-                    <button type="button" class="btn btn-outline-danger"><a href="contact.html">Sign Up Now</a></button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-        
+</nav>
+</header>
    
+    
+<!--Our Team -->
+<div class="container text-center">
+ 
+    <h3 class="event-title">Your future, your STEM!</h3>
+<!--------------------------------------------------FLYER-------------------------------------------------------------->
+ 
+<div>
+    <img src="gallery/stem4enu.jpg" class="img-fluid flyer" alt="Responsive image">
+</div>
 
-    <!--Event 3-->
- <div class="row">
-        <div class="event3">
-            <div class="row no-gutters">
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <div class="card-body">
-                        <h5 class="card-title">Exploring the Future Energy Landscape</h5>
-                        <a href="team.html">Workshop leader Jubaer Ahmed</a>
-                        <p class="card-text">
-                            We are running out of energy sources. Our conventional supplies of energy from Natural Gas, Oil and Coal are depleting and we need to stop using these anyway to save the world from global warming. 
-                            What are we going to do without the supply of energy? Is this the end of the growth of modern civilization? Let’s have a look into the future energy landscape where renewable energy sources like Solar, Wind, Hydro, Nuclear, geothermal and Hydrogen cells will govern the energy supply. 
-                            They are known to be green energy. Are they? Let’s explore it together.  
-                        </p>
-                        <button type="button" class="btn btn-outline-danger"><a href="contact.html">Sign Up Now</a></button>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <img src="gallery/solarpanels.jpg" class="card-img-top" alt="about3">
-                </div>
+<!--------------------------------------------------WORKSHOPS-------------------------------------------------------------->
+<h3 class="event-title">Discover our Workshops</h3>
+
+<!--WORKSHOP 1: ARTIFICIAL INTELLIGENCE IN OPERATIONS RESEARCH-->
+<div class="card">
+    <div class="row no-gutters">
+        <div class="col-sm-6 col-md-6">
+            <div class="card-body">
+                <h5 class="card-title">Artificial Intelligence in operations research</h5>
+                <a href="team.html" class="leaders">Workshop leader Dr Neil Urquhart</a>
+                <p class="card-text">Each day Computer Science solves many problems that improve our lives and supports society. One of the most challenging areas is that of deliveries, ensuring that goods and services are delivered quickly and efficiently. This workshop introduces you to one of the fundamental problems in computer science, the Travelling Salesperson Problem. Although simple to understand, the problem is deceptively complex to solve. Using a problem based on the center of Edinburgh, we begin by trying to solve our problem manually. We then investigate how a simple rule called a Heuristic can help us solve the problem. Finally we use a simple Artificial Intelligence algorithm to help us find a solution quickly. Even if you've never written any programme code before you will find this an interesting introduction to computer science. We'll be using the Python language and data from Open Street map so you'll be working with tools used by Computer Science students and professionals.</p>
+                <a href="contact.html" class="btn">Sign Up Now</a>
+
             </div>
         </div>
- </div>
-        
-          
-            
-    <!--Event 4-->
-<div>
-    <div class="event4">
-        <div class="row no-gutters">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <img src="gallery/robot1.jpg" class="card-img-top" alt="about4">
-            </div>
-            <div class="col-sm-12 col-md-6 ">
-                <div class="card-body2">
-                    <h5 class="card-title">Reinforcement Learning based Intelligent learning for training robots</h5>
-                    <a href="team.html">Workshop leader Shufan Yang</a>
-                    <p class="card-text">
-                        Reinforcement learning (RL), as a research paradigm, concerns not only trial-and-error learning without a model of the environment, but also deliberative planning with a model that can present the dynamics of the environment.
-                        Often robots can be re-trained with changes made to their environment using a reinforcement learning method. 
-                        In this workshop, we are going to explore reinforcement learning based training algorithm to allow a robot to walk again after losing one of its legs. 
-                        Four training strategies will be provided for students to explore. The simulation environment is based on Unity game platform and those algorithms performance will be evaluated by students who observe those actions and compared with researcher developed evaluation metrics. 
-                        This allows students to have first-hand experience of state-of-art reinforcement learning algorithms.
-                    </p>
-                    <button type="button" class="btn btn-outline-danger"><a href="contact.html">Sign Up Now</a></button>
-                </div>
+        <div class="col-sm-6 col-md-6">
+            <img src="gallery/coding.jpg" class="card-img-top h-100" alt="Python">
+        </div>
+    </div>
+</div>
+
+</br>
+
+<!--WORKSHOP 2: INFORMATION AND FEEDBACK SYSTEMS FOR DECISION MAKING-->
+<div class="card">
+    <div class="row no-gutters">
+      <div class="col-sm-6">
+            <img src="gallery/info-seeking.png" class="card-img-top h-100" alt="honey">
+        </div>
+        <div class="col-sm-6">
+            <div class="card-body">
+                <h5 class="card-title">Information and feedback systems for decision making</h5>
+                <a href="team.html" class="leaders">Workshop leader Dr Wegene Demeke</a>
+                <p class="card-text">We made decisions all the time. Information is a key to make informed decisions. This workshop will introduce you to how previous decisions affect future outcomes, sometimes with delayed responses. We will introduce you to the role and impact of feedback. You will participate in building simple models and see the results of your decisions on various aspects of social and business entities, such as population growth, business profits, and growth of customer numbers. The model will enable you to explore likely future outputs based on current decisions.</p>
+                <a href="contact.html" class="btn">Sign Up Now</a>
             </div>
         </div>
     </div>
 </div>
 
-<div class="flyer">
-   <a href="gallery/STEM4enU_flyer_final.pdf">Download our Flyer</a>
+</br>
+
+<!--WORKSHOP 3: EXPLORING THE FUTURE ENERGY LANDSCAPE-->
+<div class="card">
+    <div class="row no-gutters">
+        <div class="col-sm-6">
+            <div class="card-body">
+                <h5 class="card-title">Exploring the future energy landscape</h5>
+                <a href="team.html" class="leaders">Workshop leader Dr Jubaer Ahmed</a>
+                <p class="card-text">We are running out of energy sources. Our conventional supplies of energy from Natural Gas, Oil and Coal are depleting and we need to stop using these anyway to save the world from global warming. What are we going to do without the supply of energy? Is this the end of the growth of modern civilization? Let’s have a look into the future energy landscape where renewable energy sources like Solar, Wind, Hydro, Nuclear, geothermal and Hydrogen cells will govern the energy supply. They are known to be green energy. Are they? Let’s explore it together.</p>
+                <a href="contact.html" class="btn">Sign Up Now</a>
+
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <img src="gallery/solarpanels.jpg" class="card-img-top h-100" alt="Python">
+        </div>
+    </div>
 </div>
 
+</br>
+
+<!--WORKSHOP 4: REINFORCEMENT LEARNING BASED INTELLIGENT LEARNING FOR TRAINING ROBOTS-->
+<div class="card">
+    <div class="row no-gutters">
+      <div class="col-sm-6">
+            <img src="gallery/robot1.jpg" class="card-img-top h-100" alt="honey">
+        </div>
+        <div class="col-sm-6">
+            <div class="card-body">
+                <h5 class="card-title">Reinforcement Learning based Intelligent learning for training robots</h5>
+                <a href="team.html" class="leaders">Workshop leader Dr Shufan Yang</a>
+                <p class="card-text">Reinforcement learning (RL), as a research paradigm, concerns not only trial-and-error learning without a model of the environment, but also deliberative planning with a model that can present the dynamics of the environment. Often robots can be re-trained with changes made to their environment using a reinforcement learning method. In this workshop, we are going to explore reinforcement learning based training algorithm to allow a robot to walk again after losing one of its legs. Four training strategies will be provided for students to explore. The simulation environment is based on Unity game platform and those algorithms performance will be evaluated by students who observe those actions and compared with researcher developed evaluation metrics. This allows students to have first-hand experience of state-of-art reinforcement learning algorithms.</p>
+                <a href="contact.html" class="btn">Sign Up Now</a>
+            </div>
+        </div>
+    </div>
+</div>    
+ </div>
 
     <!--Footer-->
-    
-        <footer>
-        <p>Edinburgh Napier University</p>
-        </footer>
-    </main>
-</div>
+<footer class="event-footer text-center">
+    <p>Edinburgh Napier University</p>
+</footer>
 
-<script>
-    function openNav() {
-      document.getElementById("myNav").style.width = "100%";
-    }
-    
-    function closeNav() {
-      document.getElementById("myNav").style.width = "0%";
-    }
-</script>
+     <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
 
 <!--Boostrap Bundle with Popper-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+      
 </body>
 </html>
