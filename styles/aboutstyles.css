@@ -139,7 +139,6 @@ h1 {
     line-height: 38px;
     padding-left: 2%;
     padding-right: 2%;
-    margin-top: -5%;
   }
 
   .text4 a {
@@ -149,6 +148,7 @@ h1 {
   .about-heading1 img, .about-heading2 img, .about-heading3 img, .about-heading4 img {
     height:50%;
     width: 100%;
+    margin-bottom: -8%;
   }
   
 }
