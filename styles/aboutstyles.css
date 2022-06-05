@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Black+Ops+One&family=Gugi&family=Karla:wght@500&family=Monofett&family=Monoton&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+
+
+/*ABOUT*/
+
+.container-fluid {
+margin-left: 0;
+margin-right: 0;
+}
+
+h1 {
+  font-family: karla;
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  color: #0A2F43;
+}
+
+.about-heading1 h1, .about-heading3 h1{
+  padding-left: 5%;
+  text-align: start;
+  ;
+
+}
+
+.about-heading2 h1, .about-heading4 h1{
+  padding-right: 5%; 
+  text-align: end;
+}
+
+.about-heading1 img, .about-heading2 img, .about-heading3 img, .about-heading4 img {
+  /*object-fit: cover;*/
+  height:80%;
+  width: 100%;
+}
+
+
+.text1, .text2, .text3, .text4 {
+  text-align: center;
+  font-size: 40px;
+  font-family: karla;
+  letter-spacing: 5px;
+  line-height: 110px;
+  padding-bottom: 10%;
+
+}
+
+.text4 a {
+  font-size: 30px;
+  color: #E30641;
+  padding-top: 5%;
+}
+
+ 
+/* FOOTER */
+.about-footer {
+    font-family: karla;
+    color: #E30641;
+    background-color: #0A2F43;
+    font-size: 18px;
+    margin-top: 8%;
+    padding: 1%;
+    border-top: solid 3px #E30641;
+  }
+
+/*MENU*/ 
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.menu-button{
+  position: relative;
+  font-size: 45px;
+  cursor:pointer; 
+  margin-left: 90%; 
+  color: #E30641; 
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+/*DEVICES*/
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  h1{
+    font-size: 25px;
+
+  }
+
+  .text1, .text2, .text3, .text4 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 38px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .text4 a {
+    font-size: 20px;
+  }
+  
+}
