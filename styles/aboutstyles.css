@@ -144,5 +144,10 @@ h1 {
   .text4 a {
     font-size: 20px;
   }
+
+  .about-heading1 img, .about-heading2 img, .about-heading3 img, .about-heading4 img {
+    height:100%;
+    width: 100%;
+  }
   
 }
