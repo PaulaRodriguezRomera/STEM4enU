@@ -67,8 +67,11 @@
 }
 
 .btn {
-    border: solid 1px #E30641; 
-    margin-top: 8%;
+    text-transform: uppercase;
+    color:white;
+    background-color: #E30641;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /*MENU*/ 
