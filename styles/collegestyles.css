@@ -139,6 +139,18 @@ padding-bottom: 2%;
 }
 
 
+.units .collapse .card-body {
+    font-family: quicksand;
+    line-height: 190%;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+
 
 /*DELIVERY & STRUCTURE*/
 .card .card-body ol li {
