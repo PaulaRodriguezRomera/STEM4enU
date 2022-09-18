@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Black+Ops+One&family=Gugi&family=Karla:wght@500&family=Monofett&family=Monoton&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+
+
+
+
+/*JUMBOTRON*/
+
+.jumbotron {
+    background-image: url("../styles/images/background1.jpg");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 750px; 
+    width: 100%;
+  }
+
+  .jumbotron h1 {
+    font-family: Zhi Mang Xing;
+    color: #E30641;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 5%;
+  }
+
+
+/*INTRO*/
+.intro .event-title{
+    font-family: Zhi Mang Xing;
+    font-size: 60px;
+    color: #E30641;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+
+.intro {
+  padding-bottom: 5%;
+  margin-top: -2%;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,97,129,1) 0%, rgba(0,212,255,0.03267244397759106) 100%);
+}
+
+.intro p {
+ font-family: Quicksand;
+ font-size: 30px;
+ padding-bottom: 1%;
+}
+
+.intro .dates {
+  font-family: Quicksand;
+  font-weight: bold;
+}
+
+/*OUR AIMS*/
+.aims {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.aims-title {
+font-family: Zhi Mang Xing;
+color: #E30641;
+font-size: 50px;
+padding-top: 3%;
+padding-bottom: 1%;
+}
+
+.aims-body {
+  font-family: Quicksand; 
+  font-size: 20px;
+  line-height: 195%;
+  padding-bottom: 5%;
+}
+
+
+/*COURSE INTRO*/
+.units-intro {
+  text-align: center;
+  padding-bottom: 3%;
+  margin-bottom: 4%;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,97,129,1) 0%, rgba(0,212,255,0.03267244397759106) 100%);
+}
+
+.event-title {
+font-family: Zhi Mang Xing;
+font-size: 60px;
+color: #E30641;
+padding-top: 3%;
+padding-bottom: 2%;
+}
+
+
+.course-intro-body {
+  font-family: Quicksand; 
+  font-size: 20px;
+}
+
+
+
+/*UNITS*/
+.card {
+  border: none;
+}
+
+.card .card-title {
+    font-family: quicksand;
+    color: #E30641;
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+
+.card .card-body .leaders {
+    font-family: quicksand;
+    color: #E30641;
+    font-size: 20px;
+
+}
+
+.card .card-body .card-text {
+    font-family: quicksand;
+    line-height: 190%;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.limited {
+  font-family: Zhi Mang Xing;
+  color:#0A2F43;
+  font-size: 32px;
+  padding-top: 2%;
+  letter-spacing: 1px;
+}
+
+
+
+/*DELIVERY & STRUCTURE*/
+.card .card-body ol li {
+  font-family: quicksand;
+  font-size: 15px;
+  line-height: 120%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container .delivery {
+  padding-top: 5%;
+}
+
+
+/*THE ORGANISERS*/
+.organisers .card {
+  border: solid 1px #E30641;
+}
+
+.organisers .card .card-text {
+  text-align: center;
+}
+
+.organisers .card .team-titles {
+  color:#E30641;
+  font-size: 20px;
+  letter-spacing: 3px
+}
+
+.organisers .card .card-text {
+  letter-spacing:3px;
+}
+
+
+.organisers .collapse .card-body {
+  font-family: quicksand;
+  letter-spacing: 3px;
+  line-height: 150%;
+}
+
+.organisers .collapse .card-body a {
+  color: #E30641;
+  font-weight: bold;
+  padding-top: 8%;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+/*EXTRA INFO*/
+.extra-info {
+  font-size: 18px;
+  font-family: quicksand;
+  letter-spacing:2px;
+  line-height: 150%;
+  margin-top: 5%;
+}
+
+.extra-info .btn {
+  margin-top: 2%;
+}
+
+
+/*FOOTER*/
+.event-footer {
+    font-family: karla;
+    color: #E30641;
+    background-color: #0A2F43;
+    font-size: 18px;
+    margin-top: 8%;
+    padding: 1%;
+    border-top: solid 3px #E30641;
+  }
+
+
+/********************************FEATURES**********************************/
+
+/*BUTTON*/
+.btn {
+    text-transform: uppercase;
+    color:#E30641;
+    background-color: white;
+    border-color: #E30641;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/*MENU*/ 
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .menu-button{
+    position: relative;
+    font-size: 45px;
+    cursor:pointer; 
+    margin-left: 90%; 
+    color: #E30641; 
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+  
